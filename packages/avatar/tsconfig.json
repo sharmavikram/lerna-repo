@@ -3,14 +3,13 @@
       "baseUrl": ".",
       "outDir": "./dist",
       "module": "esnext",
-      "target": "es6",
+      "target": "es5",
       "lib": ["es6", "dom"],
-      "dist": ["es6", "dom"],
       "sourceMap": true,
       "jsx": "react",
       "skipLibCheck": true,
       "moduleResolution": "node",
-      "rootDir": "src",
+      "rootDir": "lib",
       "forceConsistentCasingInFileNames": true,
       "noImplicitReturns": true,
       "noImplicitThis": true,
@@ -23,15 +22,16 @@
       "declarationMap": true,
       "allowSyntheticDefaultImports": true
     },
+    "include": [
+        "**/*"
+    ],
     "exclude": [
-      "lib",
-      "dist",
       "node_modules",
       "build",
       "scripts",
       "acceptance-tests",
       "webpack",
-      "jest"
+      "jest",
+      "lib/setupTests.ts"
     ]
   }
-  
