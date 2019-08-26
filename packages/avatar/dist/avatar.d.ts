@@ -1,2 +1,2 @@
-export declare const avatar: () => JSX.Element;
+export declare const Avatar: () => JSX.Element;
 //# sourceMappingURL=avatar.d.ts.map

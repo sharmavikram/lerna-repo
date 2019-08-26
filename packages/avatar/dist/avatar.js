@@ -1,3 +1,3 @@
 import * as React from "react";
-export var avatar = function () { return React.createElement("div", null, "HelloWorld"); };
+export var Avatar = function () { return React.createElement("div", null, "Hello World, My name is vikram"); };
 //# sourceMappingURL=avatar.js.map

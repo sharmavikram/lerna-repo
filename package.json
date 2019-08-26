@@ -1,7 +1,32 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "@sharmavikram/root",
+  "private": false,
   "devDependencies": {
-    "lerna": "^3.16.4"
-  }
+    "lerna": "^3.16.4",
+    "microbundle": "^0.11.0"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "start": "lerna run start --stream",
+    "tsc": "lerna run tsc --stream",
+    "watch": "lerna run watch --stream",
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "cypress": "^3.4.1",
+    "react": "^16.9.0"
+  },
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharmavikram/lerna-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharmavikram/lerna-repo/issues"
+  },
+  "homepage": "https://github.com/sharmavikram/lerna-repo#readme"
 }
