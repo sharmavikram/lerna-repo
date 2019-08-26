@@ -3,5 +3,5 @@
 module.exports = likescount;
 
 function likescount() {
-    return '2';
+    return '3';
 }
