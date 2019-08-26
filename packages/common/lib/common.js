@@ -3,5 +3,5 @@
 module.exports = common;
 
 function common() {
-    console.log('Common');
+    console.log('Common log');
 }
